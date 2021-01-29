@@ -1,9 +1,12 @@
 @import 'variables';
 @import 'bg';
 
-h1, h2, h3, h4, h5, h6, .nav-link, button, .title {
+h1, h2, h3, h4, h5, h6, .nav-link, button {
     font-family: $fontBold;
 }
 p, button {
     font-family: $fontRegular;
+}
+.box {
+    z-index: -99;
 }

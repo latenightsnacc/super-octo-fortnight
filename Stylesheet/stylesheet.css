@@ -118,6 +118,12 @@
 
 h1, h2, h3, h4, h5, h6, .nav-link, button, .title {
   font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 p, button {

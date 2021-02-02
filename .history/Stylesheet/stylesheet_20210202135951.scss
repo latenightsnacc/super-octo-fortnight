@@ -27,9 +27,6 @@ h1, h2, h3, h4, h5, h6, .nav-link, button, .title {
     font-family: $fontBold;
     font-weight: bold;
 }
-.navbar-toggler:focus {
-    box-shadow: none !important;
-}
 p, button {
     font-family: $fontRegular;
 }

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind 2.0.2--> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+    <!--Font Awesome 5.15.1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- Bootstrap 5.0.0 Beta-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.9/dist/css/uikit.min.css" />
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <title>TrySpade - Digital Agency</title>
+</head>
+<body class="overflow-x-hidden min-h-screen" >
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mb-32">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="assets/Logos/TRY-Logo.png" alt="" width="150px" >
+              </a>
+              
+              <button class="navbar-toggler border-0 focus:outline-none focus:border-0 focus:shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                    <div class="flex flex-col group">
+                        <span class="w-8 border-2 border-black group-hover:w-4"></span>
+                        <span class="my-1 w-4 border-2 border-blue-500 group-hover:w-8"></span>
+                        <span class="w-8 border-2 border-black group-hover:w-4"></span>
+                    </div>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link font-bold active text-base uppercase" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-bold text-base uppercase" href="#">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-bold text-base uppercase" href="#">products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-bold text-base uppercase" href="#">our work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-bold text-base uppercase" href="#">blog</a>
+                    </li>
+                    
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main class="w-full mx-auto">
+        <!--Page Banner-->
+        <section id="domain&hosting" class="mt-24">
+            <div class="container">
+                <div class="row flex flex-col-reverse md:flex-row md:items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="font-bold text-blue-500 text-lg md:text-xl title">Domain and Web Hosting</div>
+                        <h1 class="font-bold my-3 leading-10 text-4xl md:text-6xl">Get started with the perfect domain and hosting.</h1>
+                        <div class="flex">
+                            <a href="#find-a-domain-name" class="hover:no-underline">
+                                <button class="z-10 bg-blue-500 p-3 font-lg text-gray-50 shadow-lg rounded focus:outline-none hover:bg-blue-700">Get Started</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="">
+                            <img src="assets/Graphics/World wide web_Isometric.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Domain Name-->
+        <section id="find-a-domain-name" class="w-full my-24 py-10 md:my-40 bg-gray-50">
+            <div class="container">
+                <!--DOMAIN NAME FORM-->
+                <div class="relative flex flex-col justify-center items-center h-80 mb-10">
+                    
+                    <h2 class="z-10 text-center my-3 mb-5 font-bold text-black text-4xl md:text-5xl">Stand out with the perfect domain name</h2>
+                    
+                    <form class="flex w-full max-w-lg mx-auto space-x-3">
+                        <input class="flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-md rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:border-transparent" type="email" placeholder="mydomain.com">
+                        <button class="flex-shrink-0 bg-yellow-300 text-white text-base font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-200" type="button">
+                          Search
+                        </button>
+                    </form>
+                    <div>
+                        <span>.com &#8358;4,400</span>
+                    </div>
+                    <!--BOXES-->
+                    <div class=" absolute top-0 left-60">
+                        <div class="z-0 shadow-xl border-2 border-blue-300 bg-blue-300 w-16 h-16"></div>
+                    </div>
+                    <div class=" absolute top-10 right-60">
+                        <div class="z-0 shadow-xl border-2 border-green-300 bg-green-300 w-8 h-8"></div>
+                    </div>
+                    
+                    <div class="absolute bottom-0 right-10">
+                        <div class="z-0 shadow-xl border-2 border-pink-300 bg-pink-300 w-16 h-16"></div>
+                    </div>
+                </div>     
+            </div>           
+        </section>
+        <!--SERVICES-->
+        <section id="hosting" class="my-24 md:my-40">
+            <div class="container">
+                <div class="section-title text-center py-3">
+                    <p class="text-blue-500 font-bold text-sm uppercase text-lg uppercase mb-3 title">web hosting</p>
+                    <h2 class="my-1 font-bold text-4xl md:text-5xl">Fast, Secure and Affordable Hosting</h2>    
+                </div>
+                <div class="row flex justify-center" uk-scrollspy="cls: uk-animation-fade; target: .icon;">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a class="no-underline hover:no-underline" href="ui-ux.html">
+                            <div class="group max-w-sm mx-auto  rounded-xl p-3 m-3" >
+                                <div class="text-center text-gray-50 flex justify-center">
+                          
+                                </div>
+                                <div class="text-left text-xl bold  py-2 text-gray-900 font-bold capitalize">all plans include</div>
+                                <ul class="flex flex-col justify-center w-full">
+                                    <li class="flex h-auto items-center">
+                                        <span class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900">cPanel</span>
+                                    </li>
+                                    <li class="flex h-auto items-center border-2 border-blue-300 bg-blue-300 shadow-xl rounded-xl p-1">
+                                        <span class="text-gray-50">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-50">Free SSL Certificate </span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">unlimited emails</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">unlimited databases</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">one-click wordpress installation</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">free website builder</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900">premium support</span>
+                                    </li>
+                                </ul>
+                            </div> 
+                        </a>    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="group max-w-sm mx-auto  rounded-xl p-1  m-3 shadow-xl">
+                            <div class="border-t-2 border-b-2 border-yellow-200 rounded-xl p-3 group-hover:transform group-hover:scale-y-75">
+                                <div class="text-center text-gray-50 flex justify-center">
+                                     <h3 class="text-4xl"><span class="text-xl">&#8358;</span> 0.00</h3>
+                                </div>
+                                <div class="text-center text-xl bold  py-2 text-blue-500">Trial Plan</div>
+                                <ul class="flex flex-col justify-center w-full">
+                                    <li class="text-gray-700 text-xl">
+                                        
+                                        <div class="flex h-auto items-center">
+                                            <span class="text-gray-900">
+                                                <i class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="ml-1 text-lg text-gray-900 capitalize">storage (disk) space</span>
+                                        </div>
+                                        200MB
+                                    </li>
+                                    <li class="text-gray-700 text-xl">
+                                        
+                                        <div class="flex h-auto items-center uppercase">
+                                            <span class="text-gray-900">
+                                                <i class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="ml-1 text-lg text-gray-900 capitalize">bandwidth</span>
+                                        </div>
+                                        10gb
+                                    </li>
+                                    <li class="text-blue-700 text-xl">
+                                        
+                                        <div class="flex h-auto items-center">
+                                            <span class="text-gray-900">
+                                                <i class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="ml-1 text-lg text-gray-900 ">Email(s)</span>
+                                        </div>
+                                        1 account
+                                    </li>
+                                    <li class="text-gray-700 text-xl">
+                                        <div class="flex h-auto items-center">
+                                            <span class="text-gray-900">
+                                                <i class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="ml-1 text-lg text-gray-900 capitalize">domains</span>
+                                        </div>
+                                        2
+                                    </li>
+                                    <li class="flex h-auto items-center border-2 border-blue-300 bg-blue-300 shadow-xl rounded-xl p-1">
+                                        <span class="text-gray-50">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-50">Free SSL Certificate </span>
+                                    </li>
+                                    <li class="flex h-auto items-center justify-center">
+                                        <span class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">unlimited emails</span>
+                                    </li>
+                                    <li class="flex h-auto items-center justify-center">
+                                        <span class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">unlimited databases</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">one-click wordpress installation</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900 capitalize">free website builder</span>
+                                    </li>
+                                    <li class="flex h-auto items-center">
+                                        <span  class="text-gray-900">
+                                            <i class="far fa-check-circle"></i>
+                                        </span>
+                                        <span class="ml-1 text-lg text-gray-900">premium support</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>   
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a class="no-underline hover:no-underline" href="e-commerce.html">
+                            <div class="group max-w-sm mx-auto  rounded-xl p-3 m-3  hover:shadow-2xl">
+                                <div class="text-center text-gray-50 flex justify-center">
+                                    <div class="shadow-2xl rounded-lg  w-16 icon p-3 bg-green-300 group-hover:shadow-none">
+                                        <i class="fas fa-shopping-basket fa-2x"></i>
+                                    </div>   
+                                </div>
+                                <div class="text-center text-xl bold  py-2 text-blue-500 ">E-Commerce</div>
+                               
+                                <p class="text-md text-gray-400 ">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            </div> 
+                        </a>    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a class="no-underline hover:no-underline" href="branding.html">
+                            <div class="group max-w-sm mx-auto  rounded-xl p-3 m-3  hover:shadow-2xl">
+                                <div class="text-center text-gray-50 flex justify-center">
+                                    <div class="shadow-2xl rounded-lg  w-16 icon p-3 bg-pink-300 group-hover:shadow-none">
+                                        <i class="fas fa-gem fa-2x"></i>
+                                    </div>   
+                                </div>
+                                <div class="text-center text-xl bold  py-2 text-blue-500 ">Branding</div>
+                               
+                                <p class="text-md text-gray-400 ">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            </div> 
+                        </a>    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a class="no-underline hover:no-underline" href="domain-and-hosting.html">
+                            <div class="group max-w-sm mx-auto  rounded-xl p-3 m-3  hover:shadow-2xl">
+                                <div class="text-center text-gray-50 flex justify-center">
+                                    <div class="shadow-2xl rounded-lg  w-16 icon p-3 bg-yellow-300 group-hover:shadow-none">
+                                        <i class="fas fa-globe-africa fa-2x"></i>
+                                    </div>   
+                                </div>
+                                <div class="text-center text-xl bold py-2 text-blue-500">Domain and Hosting</div>
+                               
+                                <p class="text-md text-gray-400">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            </div> 
+                        </a>    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a class="no-underline hover:no-underline" href="maintenance.html">
+                            <div class="group max-w-sm mx-auto  rounded-xl p-3 m-3  hover:shadow-2xl">
+                                <div class="text-center text-gray-50 flex justify-center">
+                                    <div class="shadow-2xl rounded-lg  w-16 icon p-3 bg-red-300 group-hover:shadow-none">
+                                        <i class="fas fa-tools fa-2x"></i>
+                                    </div>   
+                                </div>
+                                <div class="text-center text-xl bold  py-2 text-blue-500">Maintenance</div>
+                               
+                                <p class="text-md text-gray-400 ">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            </div> 
+                        </a>    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--OUR WORK-->
+        <section id="our-work" class="my-24 md:my-40">
+            <div class="container">
+                <div class="section-title text-center py-3 my-5">
+                    <p class="text-blue-500 font-bold text-sm uppercase text-lg uppercase mb-3 title">our work</p>
+                    <h2 class=" my-1 font-bold text-4xl md:text-5xl">We are here to suit all your digital needs</h2> 
+                    <p class="z-10 text-center">Posters, Logos, Websites, Blogs, E-Commerces...We've done it all</p>   
+                </div>
+                <div class="row">
+                    <!--Logos-->
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="relative">
+                            <img src="assets/Images/Portfolio Images/5.png" alt="">
+                            <div class="absolute bottom-0 left-0">
+                                <h3 class="capitalize text-4xl pt-5"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="relative">
+                            <img src="assets/Images/Portfolio Images/CW Logistics Logo Edited.png" alt="">
+                            <div class="absolute bottom-0 left-0">
+                                <h3 class="capitalize text-4xl pt-5"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="relative">
+                            <img src="assets/Images/Portfolio Images/Jimi & Oreva.png" alt="">
+                            <div class="absolute bottom-0 left-0">
+                                <h3 class="capitalize text-4xl pt-5"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="relative">
+                            <img src="assets/Logos/TRY.png" alt="">
+                            <div class="absolute bottom-0 left-0">
+                                <h3 class="capitalize text-4xl pt-5"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--OUR CLIENTS-->
+        <section id="our-clients" class="my-24 md:my-40">
+            <div class="container">
+                <div class="relative flex flex-col items-center h-auto">
+                    <div class="z-10 text-center font-bold text-blue-500 text-sm uppercase text-lg uppercase mb-3 title">who is it for?</div>
+                    <h2 class="z-10 text-center my-1 font-bold text-4xl md:text-5xl">Small, big? We cater to all</h2>
+                    
+                    <!--BOXES-->
+                    <div class=" absolute top-0 left-20">
+                        <div class="z-0 shadow-xl border-2 border-blue-300 bg-blue-300 w-8 h-8 md:w-16 md:h-16"></div>
+                    </div>
+                    <div class=" absolute top-10 right-20">
+                        <div class="z-0 shadow-xl border-2 border-indigo-300 bg-indigo-300 w-8 h-8"></div>
+                    </div>
+                    
+                    <div class="absolute top-50 left-70">
+                        <div class="z-0 shadow-xl border-2 border-pink-300 bg-pink-300 w-16 h-16"></div>
+                    </div>
+                </div>   
+                <div class="row items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="assets/Graphics/Growth_Isometric.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="flex flex-col items-center justify-center h-80">
+                            <h3 class="text-center ">Bloggers and Individuals</h3>
+                            <p class="text-center">Start a blog today and watch your blog grow from an online diary to a successful business. We are here to help you achieve your dreams.</p>
+                            <div class="flex justify-center">
+                                <button class="bg-blue-500 p-3 font-lg text-gray-50 shadow-lg rounded focus:outline-none hover:bg-blue-700">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex flex-col-reverse md:flex-row md:items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="flex flex-col items-center justify-center h-80">
+                            <h3 class="text-center">Startups and SMEs </h3>
+                            <p class="text-center">We want to support startups and small businesses in Africa grow their online presence.</p>
+                            <div class="flex justify-center">
+                                <button class="bg-blue-500 p-3 font-lg text-gray-50 shadow-lg rounded focus:outline-none hover:bg-blue-700">Get Started</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="assets/Graphics/Startup_Isometric.png" alt="">
+                        
+                    </div>
+                </div>
+                <div class="row flex items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="assets/Graphics/Online store _Isometric.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="flex flex-col items-center justify-center h-80">
+                            <h3 class="text-center">E-commerce</h3>
+                            <p class="text-center">We want to support startups and small businesses in Africa grow their online presence.</p>
+                            <div class="flex justify-center">
+                                <button class="bg-blue-500 p-3 font-lg text-gray-50 shadow-lg rounded focus:outline-none hover:bg-blue-700">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex flex-col-reverse md:flex-row md:items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="flex flex-col items-center justify-center h-80">
+                            <h3 class="text-center">Branding for Businesses and Events</h3>
+                            <p class="text-center">We want to support startups and small businesses in Africa grow their online presence.</p>
+                            <div class="flex justify-center">
+                                <button class="bg-blue-500 p-3 font-lg text-gray-50 shadow-lg rounded focus:outline-none hover:bg-blue-700">Get Started</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="assets/Graphics/Party_Isometric.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--OUR BLOG POSTS-->
+        <section id="out-blog" class="my-24 md:my-40">
+            <div class="container">
+                <div class="relative flex flex-col items-center h-auto mb-10">
+                    <div class="z-10 text-center text-blue-500 text-sm uppercase text-lg uppercase mb-3 title">our blog</div>
+                    <h2 class="z-10 text-center my-1 font-bold text-4xl md:text-5xl capitalize">latest posts</h2>
+                    
+                    <!--BOXES-->
+                    <div class=" absolute top-0 left-60">
+                        <div class="z-0 shadow-xl border-2 border-yellow-300 bg-yellow-300 w-16 h-16"></div>
+                    </div>
+                    <div class=" absolute top-10 right-60">
+                        <div class="z-0 shadow-xl border-2 border-green-300 bg-green-300 w-8 h-8"></div>
+                    </div>
+                    
+                    <div class="absolute bottom-0 right-70">
+                        <div class="z-0 shadow-xl border-2 border-pink-300 bg-pink-300 w-16 h-16"></div>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-5">
+                        <a href="#" class="group text-black hover:text-black hover:no-underline">
+                            <div class="border-2  border-blue-500 group-hover:shadow-2xl">
+                                <img src="assets/Images/Blog Images/why-you-need-a-website.jpg" alt="">
+                                <div class="px-2 text-2xl pt-3 group-hover:underline title">What is a website?</div>
+                                <p class="px-2">Lorem ipsum dolor neque atque iste eos voluptates obcaecati!...</p>
+                            </div>
+                        </a>  
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-5">
+                        <a href="#" class="group text-black hover:text-black hover:no-underline">
+                            <div class="border-2  border-yellow-500 group-hover:shadow-2xl">
+                                <img src="assets/Images/Blog Images/why-you-need-a-website.jpg" alt="">
+                                <div class="px-2 text-2xl pt-3 group-hover:underline title">What is a website?</div>
+                                <p class="px-2">Lorem ipsum dolor neque atque iste eos voluptates obcaecati!...</p>
+                            </div>
+                        </a>  
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-5">
+                        <a href="#" class="group text-black hover:text-black hover:no-underline">
+                            <div class="border-2  border-pink-500 group-hover:shadow-2xl">
+                                <img src="assets/Images/Blog Images/why-you-need-a-website.jpg" alt="">
+                                <div class="px-2 text-2xl pt-3 group-hover:underline title">What is a website?</div>
+                                <p class="px-2">Lorem ipsum dolor neque atque iste eos voluptates obcaecati!...</p>
+                            </div>
+                        </a>  
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/Logos/TRY-Logo.png" alt="" width="150px" >
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="title uppercase font-bold text-black">Company</div>
+                    <ul class="flex flex-col items-start">
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">About us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Our Work</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="title uppercase font-bold text-black">Services</div>
+                    <ul class="flex flex-col items-start">
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Graphic Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">UI Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Branding</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">E-Commerce</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Domain Name</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Web Hosting</a>
+                        </li>
+                        <li>
+                            <a href="#" class="capitalize text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">Maintenance</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="title font-bold uppercase text-black">Email</div>
+                    <ul class="flex flex-col items-start">
+                        <li>
+                            <a href="#" class="text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">hello@tryspade.com</a>
+                        </li>
+                    </ul>
+                    <div class="title font-bold uppercase text-black">Call</div>
+                    <ul class="flex flex-col items-start">
+                        <li>
+                            <a href="#" class="text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">+234 (0) 913 087 0400 </a>
+                        </li>
+                    </ul>
+                    <div class="title font-bold uppercase text-black">address</div>
+                    <ul class="flex flex-col items-start">
+                        <li>
+                            <a href="#" class="text-gray-700 text-lg font-semibold hover:no-underline hover:text-blue-700">4 Keffi Street Garki 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <ul class="flex">
+                        <li class="mr-2">
+                            <a href="#" class="text-black hover:no-underline hover:text-blue-700">
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="mr-2">
+                            <a href="#" class="hover:no-underline text-black hover:text-blue-700">
+                                <i class="fab fa-instagram-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="mr-2">
+                            <a href="#" class="hover:no-underline text-black hover:text-blue-700">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="mr-2">
+                            <a href="#" class="hover:no-underline text-black hover:text-blue-700">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <ul class="flex">
+                        <li>
+                            <p class="text-gray-700 text-md font-semibold">&copy; 2021 TrySpade</p>
+                        </li>
+                        <li class="ml-3 md:ml-5">
+                            <a class="text-gray-700 text-md font-semibold hover:no-underline hover:text-blue-700">Terms of Service</a>
+                        </li>
+                        <li class="ml-3 md:ml-5">
+                            <a class="text-gray-700 text-md font-semibold hover:no-underline  hover:text-blue-700">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.9/dist/js/uikit-icons.min.js"></script>  
+    <!--BOOTSTRAP CDN--> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!--JQUERY CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9284931.js"></script>
+    <!-- End of HubSpot Embed Code -->    
+</body>
+</html>

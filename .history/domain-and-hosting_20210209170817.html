@@ -551,7 +551,7 @@
             </div>
             <!--COMPARE PLANS-->
             <div id="hosting-features" class="container">
-                <table class="table uk-animation-fade">
+                <table class="table">
                     <thead class="font-bold">
                         <td>Features</td>
                         <td>StartUp</td>
@@ -727,7 +727,7 @@
                     <h2 class="z-10 text-center my-3 font-bold text-white text-4xl md:text-5xl">Get <span>free</span> domain and hosting</h2>
                     <p class="text-black text-center">Build your websiite with us and get free domain and hosting for 1 year.</p>
                     <div class="flex justify-center">
-                        <a href="blog-and-website-development.html" class="hover:no-underline">
+                        <a href="website.html" class="hover:no-underline">
                             <button class="z-10 bg-gray-50 p-3 font-lg text-blue-500 shadow-2xl rounded-full focus:outline-none hover:bg-white">Get Started</button>
                         </a>
                     </div>
@@ -882,7 +882,7 @@
         let compareBtn = document.getElementById('compare-hosting-plans');
         let features = document.getElementById('hosting-features');
 
-        compareBtn.addEventListener("click", function() {
+        compareBtn.addEventListener("toggle", function() {
     if (features.style.display === "none"){
        features.style.display = "block";
     } else {

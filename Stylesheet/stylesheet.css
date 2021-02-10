@@ -141,4 +141,8 @@ p, button, div {
     display: none;
   }
 }
+
+#hosting-features {
+  display: none;
+}
 /*# sourceMappingURL=stylesheet.css.map */
